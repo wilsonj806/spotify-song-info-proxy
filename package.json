@@ -1,0 +1,24 @@
+{
+  "name": "spotify-song-info-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonj806/spotify-song-info-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsonj806/spotify-song-info-proxy/issues"
+  },
+  "homepage": "https://github.com/wilsonj806/spotify-song-info-proxy#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  }
+}
