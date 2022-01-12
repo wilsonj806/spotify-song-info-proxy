@@ -2,7 +2,6 @@ const bodyParser = require('body-parser')
 const axios = require('axios')
 const helmet = require('helmet')
 const compression = require('compression')
-const res = require('express/lib/response')
 require('dotenv').config()
 
 const app = require('express')()
