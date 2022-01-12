@@ -2,6 +2,7 @@ const bodyParser = require('body-parser')
 const axios = require('axios')
 const helmet = require('helmet')
 const compression = require('compression')
+const res = require('express/lib/response')
 require('dotenv').config()
 
 const app = require('express')()
@@ -9,7 +10,8 @@ const port = 3000
 app.use(bodyParser.json())
 app.use(compression())
 app.use(helmet())
-app.post('/song/info', async (req, res) => {
+
+app.post('/songinfo', async (req, res) => {
   // see: https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow
   // REQUEST AUTH TOKEN FROM SPOTIFY API
 
